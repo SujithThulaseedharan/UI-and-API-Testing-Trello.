@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-09T17:56:42 CEST" name="Trello_Board_Workflow" finished-at="2022-08-09T17:56:47 CEST" duration-ms="5362">
+    <groups>
+    </groups>
+    <test started-at="2022-08-09T17:56:42 CEST" name="Board_Tests" finished-at="2022-08-09T17:56:47 CEST" duration-ms="5362">
+      <class name="com.qa.rest.tests.GetBoardTests">
+        <test-method signature="getBoardDetails()[pri:1, instance:com.qa.rest.tests.GetBoardTests@f6efaab]" started-at="2022-08-09T17:56:46 CEST" name="getBoardDetails" finished-at="2022-08-09T17:56:46 CEST" duration-ms="658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBoardDetails -->
+      </class> <!-- com.qa.rest.tests.GetBoardTests -->
+      <class name="com.qa.rest.tests.CreateBoardTests">
+        <test-method signature="CreateBoard()[pri:1, instance:com.qa.rest.tests.CreateBoardTests@55183b20]" started-at="2022-08-09T17:56:42 CEST" name="CreateBoard" finished-at="2022-08-09T17:56:46 CEST" duration-ms="3829" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateBoard -->
+      </class> <!-- com.qa.rest.tests.CreateBoardTests -->
+      <class name="com.qa.rest.tests.CreateCardTests">
+        <test-method signature="createCard()[pri:1, instance:com.qa.rest.tests.CreateCardTests@3349e9bb]" started-at="2022-08-09T17:56:47 CEST" name="createCard" finished-at="2022-08-09T17:56:47 CEST" duration-ms="429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCard -->
+      </class> <!-- com.qa.rest.tests.CreateCardTests -->
+      <class name="com.qa.rest.tests.UpdateBoardTests">
+        <test-method signature="updateBoardDetails()[pri:1, instance:com.qa.rest.tests.UpdateBoardTests@3c19aaa5]" started-at="2022-08-09T17:56:46 CEST" name="updateBoardDetails" finished-at="2022-08-09T17:56:47 CEST" duration-ms="342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateBoardDetails -->
+      </class> <!-- com.qa.rest.tests.UpdateBoardTests -->
+    </test> <!-- Board_Tests -->
+  </suite> <!-- Trello_Board_Workflow -->
+</testng-results>

@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Trello_Board_Workflow">
+	<listeners>
+		<listener class-name="com.qa.test.extentreport.ExtentReport"></listener>
+	</listeners>
+
+	<test name="Board_Tests">
+
+		<classes>
+			<class name="com.qa.rest.tests.CreateBoardTests" />
+			<class name="com.qa.rest.tests.GetBoardTests" />
+			<class name="com.qa.rest.tests.UpdateBoardTests" />
+			<class name="com.qa.rest.tests.CreateCardTests" />
+
+		</classes>
+	</test>
+</suite>
