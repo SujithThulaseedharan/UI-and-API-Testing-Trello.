@@ -1,0 +1,17 @@
+For API Testing
+
+1. Open TrelloAPITestingSolutions.
+2. Run ExecuteMe.xml
+3. To view the results
+Open "test-output" folder-> click on "Trello_Extent_Report.html"
+
+
+For UI Testing
+
+1. Open TrelloUITestingSolutions.
+2. Run testNG.xml
+3. To view the results
+Open "test-output" folder-> click on "Trello_Extent_Report.html"
+
+
+Thank You......!!!
